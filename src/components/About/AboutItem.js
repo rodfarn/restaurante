@@ -12,7 +12,7 @@ const AboutItem = ({ id, image, icon, title, description}) => {
                 {/* icon  */}
                 <div>
                     <img src={icon} alt={title} className="w-36"/>
-                </div>
+                </div>  
                 {/* description  */}
                 <div className="flex flex-col space-y-3">
                     <h1 className="text-xl text-gray-800 poppins">{title}</h1>

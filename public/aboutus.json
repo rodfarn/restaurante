@@ -2,22 +2,22 @@
   {
     "id": 1,
     "image": "./assets/Image/adult-blur-blurred-background-687824.png",
-    "icon": "./assets/ICON/Group 204.png",
-    "title": "Fast Delivery",
-    "description": "Keep your systems in sync with automated web hook bases notifications each tume link is paid and how we dream about our future."
+    "icon": "./assets/ICON/Group 1133.png",
+    "title": "Vísitanos en nuestra sucursal",
+    "description": "Nos encontramos en calle 48, Colonia Centro, Ciudad de Mérida. Ven y disfruta de la mejor comida en un ambiente agradable"
   },
   {
     "id": 2,
-    "image": "./assets/Image/chef-cook-food-33614.png",
-    "icon": "./assets/ICON/Group 1133.png",
-    "title": "A Good Auto Responder",
-    "description": "Keep your systems in sync with automated web hook bases notifications each tume link is paid and how we dream about our future."
+    "image": "./assets/Image/depositphotos_182946200-stock-photo-asian-young-man-delivering-pizza.jpg",
+    "icon": "./assets/ICON/Group 245.png",
+    "title": "Servicio a domicilio",
+    "description": "Contamos con servicio a domicilio dentro de toda la ciudad y alrededores, al teléfono 9992343221. ¡Esperamos tu llamada!"
   },
   {
     "id": 3,
-    "image": "./assets/Image/architecture-building-city-2047397.png",
-    "icon": "./assets/ICON/Group 245.png",
-    "title": "Home Delivery",
-    "description": "Keep your systems in sync with automated web hook bases notifications each tume link is paid and how we dream about our future."
+    "image": "./assets/Image/chef-cook-food-33614.png",
+    "icon": "./assets/ICON/Group 204.png",
+    "title": "Únete a nuestro equipo",
+    "description": "Te invitamos a que formes parte de nuestro equipo de trabajo. Envíanos tu CV a nuestro correo electrónico: reclutamiento@ilforno.com.mx"
   }
 ]

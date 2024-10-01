@@ -12,7 +12,7 @@ const AboutUs = () => {
     },[])
     return (
         <div className="max-w-screen-xl mx-auto my-12 px-6">
-            <h1 className="text-4xl poppins pb-4">Why you choose us</h1>
+            <h1 className="text-4xl poppins pb-4">Vive la experiencia en nuestro restaurante</h1>
             <p className="text-gray-500 text-sm poppins w-2/4">Barton waited twenty always repair in within we do. AN delighted offending curiosity my is dashwoods at. Boy prosperous increasing surrounded.</p>
 
             {/* about us cards  */}

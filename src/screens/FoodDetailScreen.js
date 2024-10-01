@@ -3,7 +3,6 @@ import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai';
 import { BsCart2 } from 'react-icons/bs';
 import { useHistory, useParams } from 'react-router-dom';
 import swal from 'sweetalert';
-import { useOrder } from '../contexts/OrderProvider';
 import useFetch from '../hooks/useFetch';
 import Back from '../routes/Back';
 

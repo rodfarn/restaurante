@@ -4,7 +4,6 @@ const BottomFooter = () => {
     return (
         <div className="flex items-center pt-8">
             <div className="flex flex-grow">
-                <span className="poppins text-gray-400">Developed By Misbah Uddin Muib</span>
             </div>
 
             <div className="flex justify-end items-center space-x-6">

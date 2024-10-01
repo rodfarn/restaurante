@@ -4,15 +4,15 @@ import Foods from '../components/Foods Showcase/Foods';
 import Footer from '../components/Footer/Footer';
 import Banner from '../components/Header/Banner';
 
-const HomeScreen = () => {
-    return (
-        <>
-            <Banner />
-            <Foods />
-            <AboutUs />
-            <Footer />
-        </>
-    )
-}
+const HomeScreen = ({ posts }) => {
+  return (
+    <>
+      <Banner />
+      <Foods />
+      <AboutUs />
+      <Footer />
+    </>
+  );
+};
 
-export default HomeScreen
+export default HomeScreen;

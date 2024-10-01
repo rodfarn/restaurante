@@ -39,20 +39,73 @@ body::-webkit-scrollbar-thumb {
   font-family: 'Poppins', sans-serif;
 }
 .bg-primary {
-  background: #f91944;
+  background: #1F6E4D;
 }
 .bg-primary-dark {
   background: #ce193c;
 }
 .text-primary {
-  color: #f91944;
+  color: #d15528;
 }
 
 /* Glassmorphism card effect */
 .glass {
   backdrop-filter: blur(14px) saturate(180%);
   -webkit-backdrop-filter: blur(14px) saturate(180%);
-  background-color: rgba(255, 255, 255, 0.57);
+  background-color: rgba(215, 255, 36, 0.57);
   border-radius: 12px;
   border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.blog-container {
+  width: 400px;
+  height: 322px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0px 20px 50px #d9dbdf;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+img {
+  width: 400px;
+  height: 210px;
+  object-fit: cover;
+  overflow: hidden;
+  z-index: 999;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.blog-title {
+  margin: auto;
+  text-align: left;
+  padding-left: 22px;
+  font-family: "Poppins";
+  font-size: 22px;
+}
+
+.blog-date {
+  text-align: justify;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-family: "Poppins";
+  font-size: 12px;
+  color: #c8c8c8;
+  line-height: 18px;
+  padding-top: 10px;
+}
+
+.blog-excerpt {
+  text-align: justify;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-family: "Poppins";
+  font-size: 12px;
+  color: #8a8a8a;
+  line-height: 18px;
+  margin-bottom: 13px;
 }
