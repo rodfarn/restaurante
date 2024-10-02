@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        '500': '500px',
+        '400': '400px',
       },
       height: {
-        '500': '500px',
+        '400': '400px',
       },
     },
   },

@@ -7,7 +7,7 @@ const FoodItem = ({ post, precio }) => {
             {/* Asegúrate de que `post.imageUrl` se pase y exista */}
             <div className="overflow-hidden rounded-2xl flex flex-grow">
                 {post.imageUrl ? (
-                    <img src={post.imageUrl} alt={post.title.rendered} className="w-500 h-500 object-cover mb-4 rounded" />
+                    <img src={post.imageUrl} alt={post.title.rendered} className="w-400 h-400 object-cover mb-4 rounded" />
                 ) : (
                     <p>No image available</p> // Mensaje si no hay imagen
                 )}

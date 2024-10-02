@@ -56,7 +56,7 @@ const Foods = () => {
     return (
         <section className="my-12 max-w-screen-xl mx-auto px-6">
             {/* Pestañas del menú */}
-            <div className="flex items-center justify-center space-x-6">
+            <div id="foods-slider" className="flex items-center justify-center space-x-6">
                 <p className={menuTab === 'Pastas' ? "active_menu_tab poppins bg-primary" : "menu_tab poppins"} onClick={() => handleMenuTabs('Pastas')}>PASTAS</p>
                 <p className={menuTab === 'Pizzas' ? "active_menu_tab poppins bg-primary" : "menu_tab poppins"} onClick={() => handleMenuTabs('Pizzas')}>PIZZAS</p>
                 <p className={menuTab === 'Lasañas' ? "active_menu_tab poppins bg-primary" : "menu_tab poppins"} onClick={() => handleMenuTabs('Lasañas')}>LASAÑAS</p>

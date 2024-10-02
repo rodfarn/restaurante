@@ -6,18 +6,15 @@ import ErrorScreen from './screens/ErrorScreen';
 import HomeScreen from './screens/HomeScreen';
 
 const App = () => {
-
   const [posts, setPosts] = useState([]);
 
-  const fetchPosts = () => {
-    axios
-      .get("http://pizzadays.local/wp-json/wp/v2/posts") // Usa la URL de tu sitio en Flywheel
-      .then((res) => {
-        setPosts(res.data); // Guardar las publicaciones en el estado
-      })
-      .catch((err) => {
-        console.error('Error al obtener las publicaciones:', err);
-      });
+  const fetchPosts = async () => {
+    try {
+      const response = await axios.get('http://pizzadays.local/wp-json/wp/v2/posts');
+      setPosts(response.data);
+    } catch (error) {
+      console.error('Error fetching posts:', error);
+    }
   };
 
   useEffect(() => {
@@ -28,7 +25,7 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
       <Switch>
-        <Route exact path="/">
+        <Route path="/" exact>
           <HomeScreen posts={posts} />
         </Route>
         <Route path="*">
